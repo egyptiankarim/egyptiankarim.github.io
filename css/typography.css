@@ -1,0 +1,23 @@
+body {
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #111111;
+}
+
+p {
+  font-size: 1.50em;
+}
+
+i.big {
+  font-size: 2.50em;
+}
+
+.fancy {
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1{
+  font-weight: 900;
+  font-style: italic;
+}
