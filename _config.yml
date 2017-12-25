@@ -23,3 +23,5 @@ kramdown:
 collections:
   projects:
     output: true
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
