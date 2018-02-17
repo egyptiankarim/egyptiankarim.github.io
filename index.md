@@ -20,6 +20,9 @@ layout: default
         <p class="card-text"><em>Software Developer</em></p>
       </div>
 
+      <div class="card-space">
+      </div>
+
       <div class="card-footer text-center">
         <p>
           <a href="{{ site.linkedin_url }}" class="text-dark">

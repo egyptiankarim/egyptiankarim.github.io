@@ -1,33 +1,13 @@
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
   background-color: #fefefe;
+  color: #000000;
 
   font-family: 'Montserrat';
   font-weight: 600;
-  color: #000000;
+
+  margin: 2.00em 0 0 0;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-}
-
-body > .container {
-  padding: 50px 0 15px 0;
-}
 
 /* Principal Typography */
 h1 {
@@ -58,6 +38,9 @@ h1 {
 .card-text {
   font-size: 1.50em;
   opacity: 0.50;
+}
+
+.card-space {
   padding: 0 0 10.00em 0;
 }
 
@@ -90,4 +73,25 @@ h1 {
 
 .card-footer a:hover {
   opacity: 1.00;
+}
+
+@media(max-width:375px) {
+  h1 {
+    font-size: 2.00em;
+  }
+
+  .card-text {
+    font-size: 1.25em;
+  }
+
+  .card-space {
+    padding: 0 0 9.00em 0;
+  }
+
+  .card-footer i {
+    font-size: 1.75em;
+    color: #ffffff;
+
+    padding: 0.50em 0.50em 0 0.50em;
+  }
 }
