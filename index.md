@@ -3,28 +3,40 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: Welcome!
 ---
 
-<div class="row">
-  <div class="col-12 col-md-7">
-    <h1>Hello, world!</h1>
+<div class="row justify-content-center">
+  <div class="col-10 col-sm-10 col-md-8 col-lg-6 col-xl-5">
 
-    <p>My name is Karim Said. I spend most of my time in Washington, DC. I work on the software things, read the comic book things, and drink the caffeine things&hellip; Hi!</p>
+    <div class="card">
+      <!-- <div class="card-header"></div> -->
 
-    <p>Have you got questions, comments, or concerns? Find me all over the internet:</p>
+      <div class="card-picture">
+        <img id="avi" alt="{{ site.author }}" title="{{ site.author }}" src="{{ site.gravatar_url }}" />
+      </div>
 
-    <p class="text-center">
-      <a href="{{ site.github_url }}" class="text-dark"><i class="fa fa-github-alt big col-2" aria-hidden="true"></i></a>
-      <a href="{{ site.medium_url }}" class="text-dark"><i class="fa fa-medium big col-2" aria-hidden="true"></i></a>
-      <a href="{{ site.twitter_url }}" class="text-dark"><i class="fa fa-twitter big col-2" aria-hidden="true"></i></a>
-      <a href="mailto:{{ site.email }}" class="text-dark"><i class="fa fa-pencil-square-o big col-2" aria-hidden="true"></i></a>
-    </p>
-  </div>
-  <div class="col-12 col-md-5">
-    <p>
-      <img id="avi" class="rounded-circle" alt="Karim Said" title="Karim Said"
-      src="{{ site.gravatar_url }}" style="width:100%;" />
-    </p>
+      <div class="card-body text-center">
+        <h1 class="card-title">{{ site.author }}</h1>
+        <p class="card-text"><em>Software Developer</em></p>
+      </div>
+
+      <div class="card-footer text-center">
+        <p>
+          <a href="{{ site.linkedin_url }}" class="text-dark">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="{{ site.github_url }}" class="text-dark">
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a href="{{ site.medium_url }}" class="text-dark">
+            <i class="fa fa-medium" aria-hidden="true"></i>
+          </a>
+          <a href="{{ site.twitter_url }}" class="text-dark">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+
   </div>
 </div>

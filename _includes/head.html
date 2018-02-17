@@ -5,11 +5,18 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="p:domain_verify" content="61df57195a002a7c938f9f6ed33d5cb5"/>
 
-  <title>Karim Said |
+  <title>{{ site.title }}
   {% if page.category == nil %}
-    {{ page.title }}
+    {% if page.title == nil %}
+    {% else %}
+      | {{ page.title }}
+    {% endif %}
   {% else %}
-    {{ page.category}} - {{ page.title }}
+    {% if page.title == nil %}
+      | {{ page.category}}
+    {% else %}
+      | {{ page.category}} - {{ page.title }}
+    {% endif %}
   {% endif %}
   </title>
 
@@ -19,11 +26,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
   <!-- Custom fonts -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,600,900i" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/egyptiankarim.css">
-  <link rel="stylesheet" href="/css/typography.css">
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 </head>

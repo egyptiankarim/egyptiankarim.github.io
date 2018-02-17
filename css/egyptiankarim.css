@@ -8,7 +8,11 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: #ffffff;
+  background-color: #fefefe;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #000000;
 }
 
 .footer {
@@ -19,14 +23,71 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: #fefefe;
 }
 
 body > .container {
-  padding: 150px 0 15px 0;
+  padding: 50px 0 15px 0;
 }
 
-.bg-ek {
-  background-color: #ffffff;
-  opacity: 0.98;
+/* Principal Typography */
+h1 {
+  font-size: 3.00em;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-picture {
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  background-image: url("https://en.gravatar.com/userimage/2909251/fb9165642646643ac8393babb7bcc652.jpg?size=500");
+}
+
+/* For image support. */
+.card-picture img {
+  width: 100%;
+  height: 200px;
+  opacity: 0;
+}
+
+.card-text {
+  font-size: 1.50em;
+  opacity: 0.50;
+  padding: 0 0 10.00em 0;
+}
+
+.card-footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.card-footer a div {
+  border: none;
+  outline: 0;
+
+  display: inline-block;
+
+  width: 100%;
+}
+
+.card-footer i {
+  font-size: 1.75em;
+  color: #ffffff;
+
+  padding: 0.50em 1.00em 0 1.00em;
+}
+
+.card-footer a {
+  opacity: 0.50;
+}
+
+.card-footer a:hover {
+  opacity: 1.00;
 }
