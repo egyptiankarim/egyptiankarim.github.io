@@ -17,7 +17,7 @@ layout: default
 
       <div class="card-body text-center">
         <h1 class="card-title">{{ site.author }}</h1>
-        <p class="card-text"><em>Software Developer</em></p>
+        <p class="card-text"><em>Computer Nerd</em></p>
       </div>
 
       <div class="card-space">
