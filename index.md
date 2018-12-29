@@ -30,16 +30,16 @@ layout: default
             <i class="fab fa-keybase" aria-hidden="true"></i>
           </a>
           <a href="{{ site.linkedin_url }}" class="text-dark">
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
           </a>
           <a href="{{ site.github_url }}" class="text-dark">
             <i class="fab fa-github-alt" aria-hidden="true"></i>
           </a>
-          <a href="{{ site.medium_url }}" class="text-dark">
-            <i class="fab fa-medium" aria-hidden="true"></i>
-          </a>
           <a href="{{ site.twitter_url }}" class="text-dark">
             <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="{{ site.medium_url }}" class="text-dark">
+            <i class="fab fa-medium-m" aria-hidden="true"></i>
           </a>
         </p>
       </div>
