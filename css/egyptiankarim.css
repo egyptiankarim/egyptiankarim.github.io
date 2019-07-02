@@ -22,7 +22,7 @@ h1 {
   background-position: center center;
   background-repeat: no-repeat;
 
-  background-image: url(https://en.gravatar.com/userimage/2909251/edb2aa9e57d62e566086b467b0a4bebe.jpg?size=500);
+  background-image: url("https://en.gravatar.com/userimage/2909251/edb2aa9e57d62e566086b467b0a4bebe.jpg?size=500");
 }
 
 /* For image support. */
