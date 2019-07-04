@@ -1,94 +1,63 @@
-body {
-  font-family: 'Montserrat';
-  font-weight: 600;
+@import url('https://fonts.googleapis.com/css?family=Alice&display=swap');
 
-  margin: 2.00em 0 0 0;
-}
-
-
-/* Principal Typography */
-h1 {
-  font-size: 3.00em;
-}
-
-/* Card */
-.card {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-picture {
-  width: 100%;
-  height: 200px;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  background-image: url(https://en.gravatar.com/userimage/2909251/edb2aa9e57d62e566086b467b0a4bebe.jpg?size=500);
-}
-
-/* For image support. */
-.card-picture img {
-  width: 100%;
-  height: 200px;
-  opacity: 0;
-}
-
-.card-text {
-  font-size: 1.50em;
-  opacity: 0.50;
-}
-
-.card-space {
-  padding: 0 0 10.00em 0;
-}
-
-.card-footer {
+body, html {
+  height: 100%;
   background-color: #000000;
+
   color: #ffffff;
-  margin: 0;
-  padding: 0;
 }
 
-.card-footer a div {
-  border: none;
-  outline: 0;
-
-  display: inline-block;
-
-  width: 100%;
+body, h1{
+  font-family: 'Alice', serif;
 }
 
-.card-footer i {
-  font-size: 1.75em;
-  color: #ffffff;
-
-  padding: 0.50em 1.00em 0 1.00em;
+.bgimg {
+  background-image: url('/img/avatar.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
-.card-footer a {
-  opacity: 0.50;
+a {
+  text-decoration: none;
 }
 
-.card-footer a:hover {
-  opacity: 1.00;
-}
-
-@media(max-width:375px) {
-  h1 {
-    font-size: 2.00em;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  a i {
+    padding-left: 2.00em;
+    padding-right: 2.00em;
   }
+} 
 
-  .card-text {
-    font-size: 1.25em;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  a i {
+    padding-left: 2.00em;
+    padding-right: 2.00em;
   }
+} 
 
-  .card-space {
-    padding: 0 0 7.00em 0;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  a i {
+    padding-left: 0.50em;
+    padding-right: 0.50em;
   }
+} 
 
-  .card-footer i {
-    font-size: 1.75em;
-    color: #ffffff;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  a i {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+} 
 
-    padding: 0.50em 0.50em 0 0.50em;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  a i {
+    padding-left: 1.00em;
+    padding-right: 1.00em;
   }
 }

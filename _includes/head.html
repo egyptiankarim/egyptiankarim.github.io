@@ -5,30 +5,10 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="p:domain_verify" content="61df57195a002a7c938f9f6ed33d5cb5"/>
 
-  <title>{{ site.title }}
-  {% if page.category == nil %}
-    {% if page.title == nil %}
-    {% else %}
-      | {{ page.title }}
-    {% endif %}
-  {% else %}
-    {% if page.title == nil %}
-      | {{ page.category}}
-    {% else %}
-      | {{ page.category}} - {{ page.title }}
-    {% endif %}
-  {% endif %}
-  </title>
-
-  <!-- <link rel="shortcut icon" href="/img/favicon.ico" /> -->
-
-  <!-- Latest compiled and minified Bootstrap Style Sheets -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-  <!-- Custom fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>{{ site.title }}</title>
 
   <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/w3.css">
   <link rel="stylesheet" href="/css/egyptiankarim.css">
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
