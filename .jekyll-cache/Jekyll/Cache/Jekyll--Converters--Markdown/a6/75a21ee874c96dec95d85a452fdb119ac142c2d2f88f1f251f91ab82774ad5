@@ -1,50 +1,47 @@
----
-layout: default
----
-
-<main class="flex-shrink-0">
-  <div  class="container mt-5 text-center">
+I"æ<main class="flex-shrink-0">
+  <div class="container mt-5 text-center">
     <img src="img/avatar.png" class="img-fluid img-thumbnail w-50 rounded-circle shadow d-md-none" alt="avatar" />
     <img src="img/avatar.png" class="img-fluid img-thumbnail w-25 rounded-circle shadow d-none d-md-inline-flex" alt="avatar" />
     
-    <h1 class="display-5 d-md-none">{{ site.author }}</h1>
-    <h1 class="display-3 d-none d-md-block">{{ site.author }}</h1>
+    <h1 class="display-5 d-md-none">Karim Said</h1>
+    <h1 class="display-3 d-none d-md-block">Karim Said</h1>
 
-    <hr/>
+    <hr />
 
     <p class="lead">
-      <strong>Computer Nerd</strong><br/>
+      <strong>Computer Nerd</strong><br />
       <em>Washington, DC</em>
     </p>
 
-    <hr/>
+    <hr />
 
     <ul class="list-inline list-social">
       <li class="list-inline-item">
-        <a href="{{ site.keybase_url }}">
+        <a href="https://keybase.io/egyptiankarim">
           <i class="fab fa-keybase" aria-hidden="true"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="{{ site.linkedin_url }}">
+        <a href="https://www.linkedin.com/in/egyptiankarim">
           <i class="fab fa-linkedin-in" aria-hidden="true"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="{{ site.github_url }}">
+        <a href="https://github.com/egyptiankarim">
           <i class="fab fa-github" aria-hidden="true"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="{{ site.twitter_url }}">
+        <a href="https://twitter.com/egyptiankarim">
           <i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="{{ site.medium_url }}">
+        <a href="https://medium.com/@egyptiankarim">
           <i class="fab fa-medium-m" aria-hidden="true"></i>
         </a>
       </li>
     </ul>
   </div>
 </main>
+:ET

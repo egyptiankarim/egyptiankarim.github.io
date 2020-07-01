@@ -1,63 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700');
 
-body, html {
+html, body {
   height: 100%;
-  background-color: #000000;
+  background-color: #fefefe;
 
-  color: #ffffff;
-}
+  font-family: 'Montserrat Alternates', sans-serif;
 
-body, h1{
-  font-family: 'Alice', serif;
-}
-
-.bgimg {
-  background-image: url('/img/avatar.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+  color: #010101;
 }
 
 a {
   text-decoration: none;
+  color: #010101;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  a i {
-    padding-left: 2.00em;
-    padding-right: 2.00em;
-  }
-} 
+a:hover {
+  color: #a24c53
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  a i {
-    padding-left: 2.00em;
-    padding-right: 2.00em;
-  }
-} 
+strong {
+  font-weight: 700;
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  a i {
-    padding-left: 0.50em;
-    padding-right: 0.50em;
-  }
-} 
+hr {
+  width: 25%;
+}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  a i {
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-  }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  a i {
-    padding-left: 1.00em;
-    padding-right: 1.00em;
-  }
+.list-social {
+  font-size: xx-large;
 }
