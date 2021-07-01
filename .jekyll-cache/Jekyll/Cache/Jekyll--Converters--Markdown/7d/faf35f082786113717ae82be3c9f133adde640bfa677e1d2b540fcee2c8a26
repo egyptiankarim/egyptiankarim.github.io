@@ -1,12 +1,8 @@
----
-layout: default
----
-
-<div class="container mt-5 text-center">
+I"§<div class="container mt-5 text-center">
   <img src="https://www.gravatar.com/avatar/7b1fef517a68b908f1d57b84cd09059c.jpg?s=1280" class="img-fluid img-thumbnail w-25 rounded-circle shadow" alt="avatar" />
     
-  <h1 class="display-5 d-md-none">{{ site.author }}</h1>
-  <h1 class="display-3 d-none d-md-block">{{ site.author }}</h1>
+  <h1 class="display-5 d-md-none">Karim Said</h1>
+  <h1 class="display-3 d-none d-md-block">Karim Said</h1>
 </div>
 <div class="container">
   <div class="row big">
@@ -17,21 +13,22 @@ layout: default
       <ul class="list">
         <li class="list-item">@ Washington, DC</li>
         <li class="list-item">
-          <a href="{{ site.keybase_url }}">@ keybase.io</a>
+          <a href="https://keybase.io/egyptiankarim">@ keybase.io</a>
         </li>
         <li class="list-item">
-          <a href="{{ site.linkedin_url }}">@ linkedin.com</a>
+          <a href="https://www.linkedin.com/in/egyptiankarim">@ linkedin.com</a>
         </li>
         <li class="list-item">
-          <a href="{{ site.github_url }}">@ github.com</a>
+          <a href="https://github.com/egyptiankarim">@ github.com</a>
         </li>
         <li class="list-item">
-          <a href="{{ site.twitter_url }}">@ twitter.com</a>
+          <a href="https://twitter.com/egyptiankarim">@ twitter.com</a>
         </li>
         <li class="list-item">
-          <a href="{{ site.medium_url }}">@ medium.com</a>
+          <a href="https://medium.com/@egyptiankarim">@ medium.com</a>
         </li>
       </ul>
     </div>
   </div>
 </div>
+:ET
