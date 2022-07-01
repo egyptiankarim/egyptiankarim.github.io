@@ -10,7 +10,7 @@ layout: default
       <p class="card-text text-muted"><em>computer nerd @ washington, dc</em></p>
     </div>
     <div class="card-body">
-      <ul class="list-inline mx-auto text-center display-2">
+      <ul class="list-inline mx-auto text-center display-4">
         <li class="list-inline-item"><a href="{{ site.keybase_url }}"><i class="fab fa-keybase"></i></a></li>
         <li class="list-inline-item"><a href="{{ site.github_url }}"><i class="fab fa-github"></i></a></li>
         <li class="list-inline-item"><a href="{{ site.twitter_url }}"><i class="fab fa-twitter"></i></a></li>
