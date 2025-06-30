@@ -5,7 +5,7 @@ layout: default
 <div class="cover">
   <div class="container-fluid text-center mx-auto text-middle box">
     <h1 class="display-3 d-block d-xs-block d-sm-block d-md-none">KARIM SAID</h1>
-    <h1 class="display-1 jumbo d-none d-md-block">KARIM SAID</h1>
+    <h1 class="display-1 jumbo d-none d-md-block">Karim Said</h1>
     <p class="display-5 light display-1 d-block d-xs-block d-sm-block d-md-none">Computer Nerd @ Washington DC</p>
     <p class="display-4 light d-none d-md-block">Computer Nerd @ Washington DC</p>
     <ul class="list-inline mx-auto text-center icons">
