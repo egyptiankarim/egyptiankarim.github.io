@@ -15,11 +15,6 @@ layout: default
         </a>
       </li>
       <li class="list-inline-item">
-        <a href="{{ site.keybase_url }}" title="Keybase">
-          <i class="fab fa-keybase"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
         <a href="{{ site.github_url }}" title="GitHub">
           <i class="fab fa-github"></i>
         </a>
@@ -34,9 +29,6 @@ layout: default
           <i class="fa-regular fa-badge"></i>
         </a>
       </li>
-      <!-- <li class="list-inline-item"><a href="{{ site.twitter_url }}"><i class="fab fa-twitter"></i></a></li> -->
-      <!-- <li class="list-inline-item"><a href="{{ site.linkedin_url }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li> -->
-      <!-- <li class="list-inline-item"><a href="{{ site.medium_url }}" title="Medium"><i class="fab fa-medium-m"></i></a></li> -->
     </ul>
   </div>
 </div>
