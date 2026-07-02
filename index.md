@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-fluid mt-5">
   <div class="row justify-content-center text-center">
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
       <div class="card">
         <img id="avatar" src="/images/2026-avatar.jpg" class="card-img-top" alt="avatar">
         <div class="card-body">
