@@ -2,63 +2,37 @@ html, body, main {
   height: 100%;
 
   background-color: #fefefe;
-  color: #f4d35e; /* Wes Anderson Yellow */
+  color: #9BAE9E; /* Olive Drab */
 
-  font-family: "Spicy Rice", serif;
-  font-weight: 400;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
   font-style: normal;
+
+  color: #9bae9e; /* Olive Drab */
 }
 
 a {
   text-decoration: none;
-  color: #f4d35e; /* Wes Anderson Yellow */
-
-  text-shadow: 1px 1px #202020;
+  color: #9bae9e; /* Olive Drab */
 }
 
 a:hover {
-  color: #5ecaf4;
-
-  text-shadow: 1px 1px #202020;
+  color: #83ad89; /* Olive Vibrant */
 }
 
-.cover {
-  background-image: url("/images/six-arms-cinema-skinny.jpg");
-
-  min-height: 100%;
-  background-position: bottom; 
-  background-size: cover;
+h1.jumbo {
+  font-size: 3.00em;
+  font-weight: 700;
+  color: #555555;
 }
 
-.box {
-  /* background-color: #000000;
-  opacity: 0.00; */
-}
-
-.text-middle {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.jumbo {
-  font-size: 8.00em;
+p.jumbo {
+  font-size: 2.00em;
+  font-weight: 700;
   font-style: italic;
-  
-  opacity: 0.95;
-  text-shadow: 4px 4px #202020;
-}
-
-.light {
-  font-weight: 200;
-  font-style: italic;
-
-  opacity: 0.95;
-  text-shadow: 4px 4px #202020;
+  color: #555555;
 }
 
 .icons {
-  font-size: 2.00em;
+  font-size: 3.00em;
 }
